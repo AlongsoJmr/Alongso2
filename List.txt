@@ -1,0 +1,41 @@
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> sqr=[1,2,4,3,17]
+>>> sqr
+[1, 2, 4, 3, 17]
+>>> sqr[2]
+4
+>>> aqr[-1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'aqr' is not defined
+>>> sqr[-1]
+17
+>>> sqr[-3]
+4
+>>> sqr[:]
+[1, 2, 4, 3, 17]
+>>> sqr + [21,11,9,7]
+[1, 2, 4, 3, 17, 21, 11, 9, 7]
+>>> cubes[3]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'cubes' is not defined
+>>> cubes[3]=64
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'cubes' is not defined
+>>> cubes
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'cubes' is not defined
+>>> letters = ['a','b','c','d','e']
+>>> letters
+['a', 'b', 'c', 'd', 'e']
+>>> letters[2:5]=['X','Y','Z']
+>>> letters
+['a', 'b', 'X', 'Y', 'Z']
+>>> letters[:]=[]
+>>> letters
+[]
+>>>

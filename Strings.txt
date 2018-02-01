@@ -1,0 +1,38 @@
+>>> 'spam king'
+'spam king'
+>>> 'doesn\'t'
+"doesn't"
+>>> "dosn't"
+"dosn't"
+>>> '"Isn't," she said'
+  File "<stdin>", line 1
+    '"Isn't," she said'
+          ^
+SyntaxError: invalid syntax
+>>> 'py' 'thon'
+'python'
+>>> text=('many people died beacause of cancer''to have them jioned.')
+>>> text
+'many people died beacause of cancerto have them jioned.'
+>>> prefix = 'py'
+>>> prefix 'thon'
+  File "<stdin>", line 1
+    prefix 'thon'
+                ^
+SyntaxError: invalid syntax
+>>> prefix
+'py'
+>>> prefix + 'thon'
+'python'
+>>> word='monkey'
+>>> word[0]
+'m'
+>>> word[3]
+'k'
+>>> word[-3]
+'k'
+>>> word[-1]
+'y'
+>>> word[0:3]
+'mon'
+>>>
