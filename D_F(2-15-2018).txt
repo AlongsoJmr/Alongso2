@@ -1,0 +1,9 @@
+headers=["symboling","normalized-losses","make","fuel_type","aspiration","num-of-doors","body-style","drive-wheels","engine-location","wheel-base","length","width","height","curb-weight","engine-type","num-of-cylinders","engine-size","fuel-system","bore","stroke","compressionratio","horsepower","peak-rpm","city-mpg","highway-mpg","price"]
+df.Columns=headers
+df.head(10)
+df.tail(10)
+df.dtypes
+df.describe()
+df.describe(include="all")
+
+
